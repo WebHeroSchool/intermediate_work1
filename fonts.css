@@ -11,3 +11,10 @@
 	url('fonts/MontserratRegular.woff2') format('woff2');
 	font-weight: normal;
 }
+
+@font-face {
+	font-family: 'Montserrat-Medium';
+	src: url('fonts/Montserrat-Medium.woff') format('woff'),
+	url('fonts/Montserrat-Medium.woff2') format('woff2');
+	font-weight: normal;
+}
