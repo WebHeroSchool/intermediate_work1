@@ -109,7 +109,7 @@ body {
 	grid-row: 2; 
 	font-family:'Montserrat Bold';
 	font-size: 70px;
-	margin-left: 30px;	
+	margin-left: 15px;
 }
 
 .title_collection {
@@ -124,12 +124,13 @@ body {
 	font-family: 'Montserrat Regular';
 	font-size: 18px;
 	margin-left: 15px;
-	font-family: 'Montserrat-Medium';
+	font-weight: 500;
 }
 
 .prim__wrapper {
 	grid-column: 3;
 	grid-row: 2;
+	margin-left: 15px;
 }
 
 .prim__button {
@@ -148,15 +149,6 @@ body {
 	font-family: 'Montserrat-Medium';
 	font-size: 13px;
 	margin-right: 10px;
-}
-
-.rarr {
-	position: relative;
-	font-family: 'Montserrat';
-	font-size: 35px;
-	font-style: normal;
-	right: 5px;
-	top: 5px;
 }
 
  .footer {
@@ -213,10 +205,9 @@ body {
 
 	.header {
 	  display: flex;
-      justify-content: space-between;
-      height: 70px;
-      width: 100%;
       background: #FFF;
+      width: 100%;
+      height: 70px;
 	}
 
     .logo, .header__lang {
@@ -230,10 +221,8 @@ body {
 	
 	.menu__icon {
 		position: relative;
-		align-items: flex-end;
 		width: 70px;
 		height: 69px;
-	    align-items: center;
 	}
 
 	.icon__line {
@@ -272,6 +261,7 @@ body {
       display: flex;
       justify-content: end;
       flex-direction: column-reverse;
+
     }
 
     .prim__container {
@@ -281,19 +271,19 @@ body {
     .prim__title{
       font-family: 'Montserrat Bold';
       line-height: 1.2em;
-}
+      font-size: 50px;
+    }
 
     .title_collection::after {
-		content: "";
-		display: block;
-		position: absolute;
-		width: 20px;
-		height: 20px;
-		border-right: 3px solid #000000;
-        border-top: 3px solid #000000;
-        transform: rotate(135deg);
-		margin: 20px 0 0 110px;
-
+      content: "";
+	  display: block;
+	  position: absolute;
+	  width: 20px;
+	  height: 20px;
+      border-right: 3px solid #000000;
+      border-top: 3px solid #000000;
+      transform: rotate(135deg);
+      margin: 20px 0 0 110px;
 	}
 }
 

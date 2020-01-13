@@ -18,3 +18,9 @@
 	url('fonts/Montserrat-Medium.woff2') format('woff2');
 	font-weight: normal;
 }
+
+@font-face {
+	font-family: 'Montserrat-Light';
+	src: url('fonts/Montserrat-Light.woff') format('woff'),
+	url('fonts/Montserrat-Light.woff2') format('woff2');
+}
