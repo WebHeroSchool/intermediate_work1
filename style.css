@@ -1,6 +1,7 @@
 
 body {
 	font-family: 'Montserrat Bold';
+	overflow-x: hidden;
 	margin: 0;
 }
 
